@@ -23,6 +23,6 @@ int sum_to(int num)
     if(num <= 0)
         return sum;
     sum += num;
-    sum_to(num - 1);
+    return sum_to(num - 1);
 }
 
